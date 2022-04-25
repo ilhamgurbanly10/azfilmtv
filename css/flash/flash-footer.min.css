@@ -1,16 +1,16 @@
 /* fl-footer */
 
 .fl-footer {
-	background-color: #416418;
-	padding: 3rem 0;
-	margin-top: 8vw;
+	background-color: #1d1d23;
+	padding: 45px;
+	margin-top: 4rem;
 	display: -ms-flexbox;
 	display: flex;
 	flex-flow: row wrap;
 	-ms-flex-wrap: wrap;
 	-ms-flex-direction: row;
-	justify-content: center;
-	-ms-flex-pack: center;	
+	justify-content: space-between;
+	-ms-flex-pack: justify;	
 	align-content: flex-start;
 	-ms-flex-line-pack: start;
 	align-items: flex-start;
@@ -20,7 +20,7 @@
 
 .fl-footer-title {
 	font-weight: bold;
-	color: white;
+	color: #707c86;
 	font-size: 18px;
 	margin-bottom: 2rem;
 }
@@ -58,14 +58,14 @@
 @media (hover: hover) {
 
 	.fl-footer-link:hover {
-		text-decoration: underline;
+		/*text-decoration: underline;*/
 		/*color: #cfa144;*/
 	}
 
 }
 
 .fl-footer-link:active {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	/*color: #cfa144;*/
 }
 
@@ -145,8 +145,8 @@
 @media only screen and (max-width: 1024px) {
 
 	.fl-footer { 
-		padding-left: 10vw;
-		padding-right: 10vw;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 		
 	.fl-footer > *:not(.fl-navbar-brand) {
